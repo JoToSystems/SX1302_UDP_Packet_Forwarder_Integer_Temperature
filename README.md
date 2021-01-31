@@ -3,6 +3,7 @@
 To global_conf.json add the following lines
 
         // Temperature sent as an Integer (true) or as a Floating Point Number (false)
+        // This was addeed as TTN only accepted Integer values of Temperature, Chirpstack accept Float or Integer
         "temperature_integer":true,
         // Is there a temperature sensor fitted to the radio module?
         "temperature_sensor": true,
